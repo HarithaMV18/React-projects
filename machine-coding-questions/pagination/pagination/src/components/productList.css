@@ -9,7 +9,12 @@
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     gap:15px;
     width:80vw;
-    margin:auto
+    margin:auto;
+
+   
+}
+.active{
+    background-color:#6699ff;
 }
 .page-num{
     display: flex;
