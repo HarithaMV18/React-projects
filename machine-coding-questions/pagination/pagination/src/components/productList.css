@@ -1,0 +1,47 @@
+.pagination{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-products{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap:15px;
+    width:80vw;
+    margin:auto
+}
+.page-num{
+    display: flex;
+    padding-bottom:10px;
+
+}
+.current-page{
+    border:1px solid black;
+    padding:2px 8px;
+
+}
+.current-page:hover{
+    cursor: pointer;
+}
+
+.specific-products{
+    border:1px solid black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5px;
+
+}
+.specific-products:hover{
+    cursor: pointer;
+}
+.specific-products h3{
+    text-align: center;
+}
+.specific-products img{
+    width: 160px;
+    height:160px;
+    object-fit: cover;
+}
