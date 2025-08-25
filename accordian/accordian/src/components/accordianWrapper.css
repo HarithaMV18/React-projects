@@ -1,0 +1,30 @@
+.accordian-wrapper {
+  background-color: #f9f9f9;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 5px;
+}
+.accordian-content {
+  padding: 5px;
+}
+.accordian-content-title {
+  background-color: #f1f1f1;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  transition: background-color 0.3s ease;
+}
+.accordian-content-title:hover {
+  background-color: #e0e0e0;
+}
+.accordian-content-desc {
+  padding: 10px 15px;
+}
