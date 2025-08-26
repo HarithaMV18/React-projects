@@ -1,0 +1,45 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+.main-container h1 {
+  font-size: 24px;
+}
+.chips-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.input-section {
+  text-align: center;
+}
+.input-section input[type="text"] {
+  width: 250px;
+  padding: 8px;
+}
+.list-items {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 5px;
+  padding: 0px;
+}
+.list-items li {
+  list-style-type: none;
+  padding: 5px 10px;
+  background-color: #d3d3d3;
+  border-radius: 10px;
+  width: fit-content;
+}
+.list-items span {
+  color: red;
+  font-size: 13px;
+  cursor: pointer;
+}
