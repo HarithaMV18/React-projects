@@ -1,0 +1,26 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.guessNum-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+h1 {
+  font-size: 24px;
+}
+#guess-input {
+  width: 250px;
+}
+.btn-list {
+  width: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
